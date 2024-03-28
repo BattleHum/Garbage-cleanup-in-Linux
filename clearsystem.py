@@ -9,7 +9,7 @@ def upgrade():
     print("You kali upgrade!")
 
 def clean():
-    print("Clear system")
+    print("Clear system...")
     subprocess.call(["apt-get", "clean", "-y"])
     subprocess.call(["apt-get", "autoremove", "-y"])
     print("System clear!")
